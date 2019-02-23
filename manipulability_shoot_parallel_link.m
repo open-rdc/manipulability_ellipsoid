@@ -4,9 +4,9 @@ clf;
 %parameter
 height = 0.19 % (m)
 stroke = 0.12 % (m)
-motor_velocity = 4.81; % (rad/s) 46rpm
-l1 = 0.108; % (m) length of link (GankenKun)
-l2 = 0.108;
+motor_velocity = 4.81 % (rad/s) 46rpm
+l1 = 0.108 % (m) length of link (GankenKun)
+l2 = 0.108
 ratio = 0.1; % display
 
 function [t1, t2] = inverse_kinematics(x, y, l1, l2)
@@ -45,7 +45,6 @@ for n = 1:i
   if (mani(n,3) < 0)
     mani(n,3) += 2 * pi;
   endif
-  printf("(velocity, angle): (%f, %f, %f)\n", mani(n,4) * motor_velocity, mani(n,5) * motor_velocity, mani(n,3)-pi);
 end
 hold off;
 

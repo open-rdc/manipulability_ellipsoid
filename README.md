@@ -4,7 +4,7 @@
 
 ### manipulability_shoot
 
-![image](https://user-images.githubusercontent.com/5755200/53292638-c525e680-3808-11e9-9777-6afa44aa1007.png)
+![image](https://user-images.githubusercontent.com/5755200/53292682-7462bd80-3809-11e9-8628-38f24184ba93.png)
 
 ### manipulability_bezier
 

@@ -15,3 +15,6 @@
 ### manipulability_shoot_parallel_link
 
 ![screenshot 2019-02-24 08 23 31](https://user-images.githubusercontent.com/5755200/53292921-01a81100-380e-11e9-84fd-e2c0f57710d0.png)
+
+The previous programs are in the following repository.  
+https://github.com/open-rdc/kick_motion_analysis
